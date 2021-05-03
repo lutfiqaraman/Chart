@@ -1,3 +1,7 @@
 #idea folder
-.idea/
-'.idea' 
+/.idea/.gitignore
+/.idea/Chart.iml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
+/.idea
