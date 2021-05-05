@@ -21,7 +21,21 @@ const chartData = {
 const chartConfig = {
     type: 'bar',
     data: chartData,
-    options: {}
+    options: {
+        plugins: {
+            title: {
+                display: true,
+                padding: true,
+                fullSize: true,
+                font: {
+                    size: 21,
+                    weight: 'bold'
+                },
+                text: 'Gender ratio in some countries'
+            }
+        },
+        responsive: true
+    }
 };
 
 let chartID = document.getElementById("barChart");
