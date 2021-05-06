@@ -1,3 +1,3 @@
-### Bar Chart using  ChartJS Library
+### Bar Chart using ChartJS Library
 
-To show the work live [link](https://codepen.io/lutfiq/pen/OJpPJPP)
+[The chart](https://codepen.io/lutfiq/pen/OJpPJPP) live
