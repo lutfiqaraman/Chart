@@ -35,7 +35,20 @@ const chartConfig = {
             }
         },
         scales: {
+            x: {
+                title: {
+                  text: 'Countries',
+                  display: true
+                },
+                grid: {
+                    tickColor: 'red'
+                }
+            },
             y: {
+                title: {
+                    text: 'Male to female ratio in millions',
+                    display: true
+                },
                 ticks: {
                     // Include 'M' in the ticks
                     callback: function(value, index, values) {
