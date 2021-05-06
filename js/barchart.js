@@ -31,7 +31,7 @@ const chartConfig = {
                     size: 21,
                     weight: 'bold'
                 },
-                text: 'Gender ratio in some countries'
+                text: 'Gender ratio in millions'
             }
         },
         scales: {
