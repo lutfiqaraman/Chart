@@ -34,6 +34,16 @@ const chartConfig = {
                 text: 'Gender ratio in some countries'
             }
         },
+        scales: {
+            y: {
+                ticks: {
+                    // Include a dollar sign in the ticks
+                    callback: function(value, index, values) {
+                        return  value / 1e6 + 'M';
+                    }
+                }
+            }
+        },
         responsive: true
     }
 };
