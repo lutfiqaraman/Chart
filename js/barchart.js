@@ -32,6 +32,24 @@ const chartConfig = {
                     weight: 'bold'
                 },
                 text: 'Gender ratio in millions'
+            },
+            tooltip: {
+                mode: 'index',
+                intersect: true,
+                callbacks: {
+                    label: function (context) {
+                        let label = context.dataset.label || '';
+
+                        if (label) {
+                            label += ': ';
+                        }
+                        if (context.parsed.y !== null) {
+                            let roundedNumber = Math.round((context.parsed.y / 1e6) * 10) / 10;
+                            label += roundedNumber + 'M';
+                        }
+                        return label;
+                    }
+                }
             }
         },
         scales: {
