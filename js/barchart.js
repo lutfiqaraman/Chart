@@ -69,7 +69,7 @@ const chartConfig = {
                 },
                 ticks: {
                     // Include 'M' in the ticks
-                    callback: function(value, index, values) {
+                    callback: function(value) {
                         return  value / 1e6 + 'M';
                     }
                 }
@@ -83,6 +83,7 @@ const chartConfig = {
             padding: {
                 top: 25,
                 right:50,
+                bottom: 20,
                 left: 50
             }
         },
