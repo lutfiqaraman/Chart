@@ -1,3 +1,3 @@
 ### Bar Chart using ChartJS Library
 
-[The chart](https://lutfiqaraman-chart-app.herokuapp.com) live
+To see the chart live, please click [here](https://lutfiqaraman-chart-app.herokuapp.com)
