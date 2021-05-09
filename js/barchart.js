@@ -75,6 +75,17 @@ const chartConfig = {
                 }
             }
         },
+        animation: {
+            duration: 3000,
+            easing: 'easeInOutBounce'
+        },
+        layout: {
+            padding: {
+                top: 25,
+                right:50,
+                left: 50
+            }
+        },
         responsive: true
     }
 };
