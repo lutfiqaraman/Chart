@@ -25,13 +25,12 @@ const chartConfig = {
         plugins: {
             title: {
                 display: true,
-                padding: true,
-                fullSize: true,
+                text: 'Gender ratio in millions',
+                padding: 10,
                 font: {
                     size: 21,
-                    weight: 'bold'
+                    style: 'bold'
                 },
-                text: 'Gender ratio in millions'
             },
             tooltip: {
                 mode: 'index',
