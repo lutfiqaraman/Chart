@@ -7,6 +7,6 @@ canvas {
     position: relative;
     padding: 0;
     margin: auto;
-    height:40vh;
-    width:80vw;
+    height: 80vh;
+    width: 100%;
 }

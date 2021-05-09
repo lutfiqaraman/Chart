@@ -22,6 +22,8 @@ const chartConfig = {
     type: 'bar',
     data: chartData,
     options: {
+        responsive: true,
+        maintainAspectRatio: false,
         plugins: {
             title: {
                 display: true,
@@ -85,8 +87,7 @@ const chartConfig = {
                 bottom: 20,
                 left: 50
             }
-        },
-        responsive: true
+        }
     }
 };
 
